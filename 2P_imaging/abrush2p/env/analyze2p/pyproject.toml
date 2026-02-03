@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "analyze-mea"
+version = "0.1.0"
+description = ""
+authors = ["LUKE_OCEANDIVER <ronghao.zhang.academic@gmail.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+nidaqmx = "^0.5.7" 
+numpy = "^1.21.2"  
+matplotlib = "^3.4.3" 
+scipy = "^1.7.1"
+pandas = "^1.4"
+seaborn = "^0.12"
+tqdm = "^4.62.3"
+opencv-python = "^4.5.3"
+compress-pickle = "^2.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
